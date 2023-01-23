@@ -1,3 +1,15 @@
+/* --------------------------------------------------------------------------
+ * APUNTES:
+ * 		   En este archivo se demuestra como incorporar 'styled-components'.
+ * 		   Además, de como utilizar lógica en los mismos.
+ *
+ *
+ * IMPORTANTE:
+ *  			  - Es importante que la lógica que se le aplique en los
+ * 					estilos se mantenga concisa, es decir, no dependa de
+ * 					terceros para evitar que se le inyecte código malicioso.
+-------------------------------------------------------------------------- */
+
 import styled, { keyframes } from 'styled-components';
 
 const P = styled.p`
